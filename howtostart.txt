@@ -1,0 +1,6 @@
+0. npm install @ client & jsonserver_blog
+1. npm run tunnel @ jsonserver_blog
+2. 1 で作成したURLを client/src/api/jsonServer.js の baseURL に上書き
+3. npm run db @ jsonserver_blog
+4. npm run start @ cleint
+5. tunnel モードに切り替えた上でQRコードをExpoアプリで読み込む
